@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 #include <stdbool.h>
-
 int i=0,p=0;
 
-// Function to generate prime numbers using Sieve of Eratosthenes
-
 void sieveOfEratosthenes(int n) {
-
-// Create a boolean array and initialize all entries as true
+ 
 
 bool prime[n + 1];
 
