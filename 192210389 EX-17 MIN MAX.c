@@ -2,21 +2,15 @@
 
 #include <limits.h>
 
-// Function to find maximum and minimum using divide and conquer
-
 void findMaxMin(int arr[], int left, int right, int *max, int *min) {
 
 if (left == right) {
-
-// Base case: only one element
 
 *max = arr[left];
 
 *min = arr[left];
 
 } else if (right == left + 1) {
-
-// Base case: two elements
 
 if (arr[left] > arr[right]) {
 
