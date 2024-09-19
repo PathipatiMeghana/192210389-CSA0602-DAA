@@ -4,21 +4,15 @@
 
 int i=0,j=0;
 
-// Function to merge two halves
-
 void merge(int arr[], int left, int mid, int right) {
 
 int n1 = mid - left + 1;
 
 int n2 = right - mid;
 
-// Create temporary arrays
-
 int* L = (int*)malloc(n1 * sizeof(int));
 
 int* R = (int*)malloc(n2 * sizeof(int));
-
-// Copy data to temporary arrays L[] and R[]
 
 for ( i = 0; i < n1; i++) {
 
